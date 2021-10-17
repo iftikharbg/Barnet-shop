@@ -1,0 +1,62 @@
+header{
+    #navigation{
+        .container{
+
+            .row{
+                .col-3{
+                    .image-box{
+                        img{
+                            max-width: 100%;
+                            object-fit: cover;
+                            display: block;
+
+                        }
+                    }
+
+                }
+                .col-9{
+                    .nav-bar{
+                        display: flex;
+                        a{ 
+
+                            text-decoration: none;
+                            color: black;
+                            transition: 0.5s;
+                            padding: 30px 20px;
+                            
+                            
+                            
+
+                            &:hover{
+                                background-color: #FF4747;
+                                color: white;
+                            }
+
+                            i{
+                               margin-left: 5px; 
+                            }
+
+                        }
+                        .fa-search{
+                          margin: 0 10px;
+
+                        }
+                        button{
+                            padding: 7px 30px;
+                            border-radius: 20px;
+                            border: none;
+                            background-color: #FF4747;
+                            color: white;
+                            transition: 0.3s;
+                             
+                            &:hover{
+                                background-color: black;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

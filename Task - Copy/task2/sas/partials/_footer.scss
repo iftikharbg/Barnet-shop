@@ -1,0 +1,193 @@
+footer{
+    
+    #contact{
+
+        color: white;
+        position: relative;
+        background-image:url(http://html.commonsupport.xyz/2019/Barnet/images/background/1.jpg) ;
+        *{
+            z-index: 1;
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            background: #1e2863;
+            opacity: .95;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .container{
+            padding-top: 180px;
+            padding-bottom: 100px;
+           
+            .row{
+               
+                .col-3{
+                    .logo-box{
+                        margin-bottom: 25px;
+                       
+                    }
+                   
+                    
+
+                }
+                .col-3{
+                   
+                    .top-info{
+                        h6{
+                            i{
+                                color: #4ACDEE;
+                            }
+
+                        }
+                        p{
+                            color: #C3CFC1;
+
+                        }
+                    }
+                    .mid-info{
+                        p{
+                            a{
+                                color: #FF4747;
+                            }
+
+                        }
+                    }
+                    .bottom-info{
+                        h6{
+                            i{
+                                color: #4ACDEE;
+                            }
+                        }
+                        .grey{
+                            color: #C3CFC1;
+                        }
+                        p{
+                            a{
+                                color: #FF4747;
+                            }
+                        }
+                    }
+
+                }
+                .col-3{
+                   
+                    .post{
+                        p{
+                            color: #C3CFC1;
+
+                        }
+                       
+                    }
+
+                }
+                .col-3{
+                   
+                   
+                    .social-links{
+                        i{
+                            transition: 0.6s;
+                        }
+                        i:nth-child(1):hover{
+                            background-color: white;
+                            color:#DB4A37 ;
+                            cursor: pointer;
+                        }
+                        i:nth-child(2):hover{
+                            background-color: white;
+                            color: #3B5796 ;
+                            cursor: pointer;
+                        }
+                        i:nth-child(3):hover{
+                            background-color: white;
+                            color: #EA4C89 ;
+                            cursor: pointer;
+                        }
+                        i:nth-child(4):hover{
+                            background-color: white;
+                            color: #55ADED ;
+                            cursor: pointer;
+                        }
+                        i:nth-child(1){
+                           font-size: 20px;
+                           border-radius: 50%;
+                           color: white;
+                           background-color: #DB4A37;
+                           padding: 10px ;  
+
+                        }
+                        i:nth-child(2){
+                            font-size: 20px;
+                            border-radius: 50%;
+                            color: white;
+                            background-color: #3B5796;
+                            padding: 10px;  
+ 
+                         }
+                         i:nth-child(3){
+                            font-size: 20px;
+                            border-radius: 50%;
+                            color: white;
+                            background-color: #EA4C89;
+                            padding: 10px;  
+ 
+                         }
+                         i:nth-child(4){
+                            font-size: 20px;
+                            border-radius: 50%;
+                            color: white;
+                            background-color: #55ADED;
+                            padding: 10px;  
+ 
+                         }
+                    }
+
+                }
+            }
+        }
+    }
+    #sub-footer{
+        background-color: #3648B2;
+        .container{
+            
+            padding: 25px;
+            .row{
+                .col-12{
+                    span{
+                        color: white;
+                        a{
+                            transition: 0.4s;
+                            text-decoration: none;
+                            color: white;
+                            &:hover{
+                                color: #FF464B;
+                            }
+                        }
+
+                    }
+                    .copyright{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                       
+                        a{
+                            text-decoration: none;
+                            color: white;
+
+                        }
+                        .vr{
+                             color: white;
+                            width: 2px;
+                            height: 30px;
+                           
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

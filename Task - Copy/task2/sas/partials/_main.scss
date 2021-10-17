@@ -1,0 +1,348 @@
+.social{
+    background-color:#3648B2 ;
+    padding: 20px;
+    .container{
+
+
+        .row{
+            .col-6{
+                .icon-box{
+                    display: flex;
+                    gap: 10px;
+                    i{ 
+                        color: white;
+                        &:hover{
+                            color: #FF4747;
+                            cursor: pointer;
+                        }
+
+                    }
+                }
+                .mobile{
+                    color: white;
+                    display: flex;
+                    gap: 20px;
+                    span{
+                        i{
+                            margin-right: 5px;
+                            color: #FF4747;
+                        }
+                    }
+
+                }
+            }
+           
+        }
+    }
+}
+
+
+main{
+    #banner{
+        background-image: url(http://html.commonsupport.xyz/2019/Barnet/images/background/3.jpg);
+        padding: 140px;
+        background-position: center;
+        background-color:rgba(0, 0, 0, 0.603) ;
+       
+        background-blend-mode: multiply ;
+        .container{
+            .row{
+                .col-12{
+                    h1{
+                        color: white;
+                        font-size: 40px;
+                        
+                    }
+                    .breadcrump{
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            transition: 0.4s;
+                            font-weight: 100px;
+                            
+                            &:hover:nth-child(1){
+                                color: #FF4747;
+                            }
+                           
+                           
+                        }
+                        i{
+                            color: white;
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+    #subscribe{
+        position: relative;
+        top: 100px;
+        z-index: 1;
+        .container{
+            padding: 60px;
+            background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+            .email-box{
+                        
+                h2{
+                    color: white;
+                    
+
+                }
+                input{
+                    outline: none;
+                    padding: 15px 40px;
+                    border-radius: 30px;
+                    border: none;
+                    background-color: #f78585d3;
+                    &::placeholder{
+                        color: white;
+                    }
+                    
+
+                }
+                button{
+                    transition: 0.5s;
+                    border: none;
+                    padding: 15px 40px;
+                    border-radius: 30px;
+                    color: black;
+                    background-color:white ;
+                    &:hover{
+                        color: white;
+                        background-color:black ;
+                    }
+
+                    
+                }
+            }
+
+        }
+        
+        
+               
+
+                
+            
+        
+    }
+    #product-example{
+        .container{
+            padding: 80px 0;
+            .row{
+                .col-6{
+                    .product{
+                        .image-box{
+                            img{
+                                max-width: 100%;
+                                object-fit: cover;
+                                display: block;
+
+                            }
+
+                        }
+                        .review-box{
+                            margin-top: 50px;
+                            button:nth-child(1){
+                                border: none;
+                                border-radius: 30px;
+                                padding: 13px 30px;
+                                color: white;
+                                background-color: #FF4747 ;
+
+                            }
+                            button:nth-child(2){
+                                border: 1px solid #F2F2F2;
+                                border-radius: 30px;
+                                padding: 13px 30px;
+                                background-color:white ;
+
+                            }
+                           
+
+                        }
+                    }
+                }
+                .col-6{
+                    h2{
+                        color: #222222;
+
+
+                    }
+                    span{
+                       color: #FF4747;
+                       font-size: 30px;
+
+                    }
+                    .content{
+                        color: #808080;
+                    }
+                   
+                    .product-count{
+                        gap: 20px;
+                        margin:40px 0 ;
+                        input{
+                            outline: none;
+                            border: 1px solid #E2E8F0;
+
+                        }
+                        button{
+                            border-radius: 30px;
+                            border: none;
+                            padding: 12px 50px;
+                            color: white;
+                            background-color:#FF4747 ;
+
+
+                        }
+                    }
+                    
+                       .catg{
+                           color: #1A224C;
+                           margin-bottom: 20px;
+                       }
+                
+                    .icon-box{
+                        gap: 10px;
+                        i{
+                            border-radius: 50%;
+                            color: #848484;
+                            border: 1px solid #EFEFEF;
+                            padding: 15px 15px;
+                            transition: 0.4s;
+                            &:hover{
+                                color: white;
+                                background-color:#FF4747 ;
+                                cursor: pointer;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #product-dscp{
+        margin-top: 50px;
+        .container{
+            .row{
+                .col-12{
+                    h3{
+                        color: #1B234E;
+                        margin-bottom: 30px;
+
+                    }
+                    p{
+                        color: #8C8C8C;
+
+                    }
+                }
+            }
+        }
+    }
+    #related{
+        margin-top: 50px;
+        .container{
+            .row{
+                h1{
+                  
+                    position: relative;
+                    color: #1A224C;
+                   &::before{
+                    position: absolute;
+                    left: 5;
+                    bottom: -10px;
+                    width: 60px;
+                    height: 2px;
+                    content: "";
+                    background: #FF4747;
+                   }
+                   &:after{
+                    position: absolute;
+                    left: 33px;
+                    bottom: -15px;
+                    width: 60px;
+                    height: 2px;
+                    content: "";
+                    background: #FF4747;
+                   }
+                    
+
+
+                }
+                .col-3{
+                    .card{
+                        margin-top: 45px;
+
+                       
+                          
+                        border: none;
+                        .image-box{
+                            &:hover .icon-box{
+                                opacity: 1;
+                                transform: translate(-57%,-3px);
+                            }
+                            position: relative;
+                            img{
+                               
+                                max-width: 100%;
+                                object-fit: cover;
+                                display: block;
+
+                            }
+                            .icon-box{
+                                transition: 0.6s;
+                               position: absolute;
+                               left: 50%;
+                               transform: translateX(-57%) ;
+                               bottom: 0px;
+                               opacity: 0;
+                                i{
+                                    transition: 0.5s;
+                                    border-radius: 50px;
+                                    padding: 15px;
+                                    &:hover{
+                                        color: white;
+                                        background-color:#FF4747 ;
+                                        cursor: pointer;
+
+                                }
+                            }
+
+                        }
+                        .text-box{
+                            
+                           
+                            h6{
+                               
+                                color:#30385E ;
+
+                            }
+                            p{
+                                color: #1A224C;
+
+                            }
+
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+}
+.cursor{
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 20px 27px ;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color:  #FF4747;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+   
+}
